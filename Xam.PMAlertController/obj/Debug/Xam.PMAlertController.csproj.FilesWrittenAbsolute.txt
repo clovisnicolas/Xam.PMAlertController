@@ -1,0 +1,5 @@
+/Users/clovisnicolas/Projects/Xam.PMAlertController/Xam.PMAlertController/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/clovisnicolas/Projects/Xam.PMAlertController/Xam.PMAlertController/bin/Debug/Xam.PMAlertController.dll.mdb
+/Users/clovisnicolas/Projects/Xam.PMAlertController/Xam.PMAlertController/bin/Debug/Xam.PMAlertController.dll
+/Users/clovisnicolas/Projects/Xam.PMAlertController/Xam.PMAlertController/obj/Debug/Xam.PMAlertController.dll
+/Users/clovisnicolas/Projects/Xam.PMAlertController/Xam.PMAlertController/obj/Debug/Xam.PMAlertController.dll.mdb

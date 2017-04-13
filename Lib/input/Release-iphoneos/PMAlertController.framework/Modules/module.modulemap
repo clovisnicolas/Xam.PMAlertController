@@ -1,0 +1,10 @@
+framework module PMAlertController {
+  umbrella header "PMAlertController.h"
+
+  export *
+  module * { export * }
+}
+
+module PMAlertController.Swift {
+    header "PMAlertController-Swift.h"
+}
