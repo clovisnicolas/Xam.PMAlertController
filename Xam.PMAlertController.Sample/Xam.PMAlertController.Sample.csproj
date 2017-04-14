@@ -9,6 +9,8 @@
     <RootNamespace>Xam.PMAlertController.Sample</RootNamespace>
     <AssemblyName>Xam.PMAlertController.Sample</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -80,13 +82,55 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Swift3">
+      <HintPath>..\packages\Xamarin.Swift3.3.0.0\lib\xamarinios10\Xamarin.Swift3.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Core">
+      <HintPath>..\packages\Xamarin.Swift3.Core.3.0.2\lib\xamarinios10\Xamarin.Swift3.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.CoreGraphics">
+      <HintPath>..\packages\Xamarin.Swift3.CoreGraphics.3.0.2\lib\xamarinios10\Xamarin.Swift3.CoreGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.CoreImage">
+      <HintPath>..\packages\Xamarin.Swift3.CoreImage.3.0.2\lib\xamarinios10\Xamarin.Swift3.CoreImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Darwin">
+      <HintPath>..\packages\Xamarin.Swift3.Darwin.3.0.2\lib\xamarinios10\Xamarin.Swift3.Darwin.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Dispatch">
+      <HintPath>..\packages\Xamarin.Swift3.Dispatch.3.0.2\lib\xamarinios10\Xamarin.Swift3.Dispatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Foundation">
+      <HintPath>..\packages\Xamarin.Swift3.Foundation.3.0.2\lib\xamarinios10\Xamarin.Swift3.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.ObjectiveC">
+      <HintPath>..\packages\Xamarin.Swift3.ObjectiveC.3.0.2\lib\xamarinios10\Xamarin.Swift3.ObjectiveC.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.QuartzCore">
+      <HintPath>..\packages\Xamarin.Swift3.QuartzCore.3.0.2\lib\xamarinios10\Xamarin.Swift3.QuartzCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.SIMD">
+      <HintPath>..\packages\Xamarin.Swift3.SIMD.3.0.2\lib\xamarinios10\Xamarin.Swift3.SIMD.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.UIKit">
+      <HintPath>..\packages\Xamarin.Swift3.UIKit.3.0.2\lib\xamarinios10\Xamarin.Swift3.UIKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Xam.PMAlertController">
+      <HintPath>..\Xam.PMAlertController\bin\Release\Xam.PMAlertController.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\home.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\home.imageset\Warehouse.png" />
+    <ImageAsset Include="Assets.xcassets\home.imageset\Warehouse%402x.png" />
+    <ImageAsset Include="Assets.xcassets\home.imageset\Warehouse%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Home.imageset\" />
+    <Folder Include="Assets.xcassets\home.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -95,6 +139,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -105,4 +150,5 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Swift3.3.0.0\build\Xamarin.Swift3.targets" Condition="Exists('..\packages\Xamarin.Swift3.3.0.0\build\Xamarin.Swift3.targets')" />
 </Project>

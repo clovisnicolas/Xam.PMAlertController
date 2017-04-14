@@ -1,10 +1,11 @@
-﻿<Properties StartupConfiguration="{05AC6A3E-7B5D-441D-BF14-0818468B09D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Xam.PMAlertController.Sample/AppDelegate.cs">
+﻿<Properties StartupConfiguration="{05AC6A3E-7B5D-441D-BF14-0818468B09D5}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xam.PMAlertController.Sample/ViewController.cs">
     <Files>
       <File FileName="Xam.PMAlertController/Structs.cs" Line="14" Column="44" />
       <File FileName="Xam.PMAlertController/ApiDefinition.cs" Line="27" Column="48" />
       <File FileName="Xam.PMAlertController/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="Xam.PMAlertController.Sample/AppDelegate.cs" Line="26" Column="3" />
+      <File FileName="Xam.PMAlertController.Sample/AppDelegate.cs" Line="23" Column="4" />
+      <File FileName="Xam.PMAlertController.Sample/ViewController.cs" Line="40" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +13,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Xam.PMAlertController.Sample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
+  <MonoDevelop.Ide.ItemProperties.Xam.PMAlertController.Sample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.746B6405-2E61-4D4B-9C9D-FB1DDCA70311" />
   <MultiItemStartupConfigurations />
 </Properties>
