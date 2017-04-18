@@ -102,13 +102,7 @@
 		// -(instancetype _Nonnull)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil __attribute__((objc_designated_initializer));
 		[Export("initWithNibName:bundle:")]
 		IntPtr Constructor([NullAllowed] string nibNameOrNil, [NullAllowed] NSBundle nibBundleOrNil);
-	}
 
-	// @interface PMAlertController_Swift_177 (PMAlertController) <UITextFieldDelegate>
-	[BaseType(typeof(PMAlertController))]
-	//[Category]
-	interface PMAlertController_PMAlertController_Swift_177 : IUITextFieldDelegate
-	{
 		// -(BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
 		[Export("textFieldShouldReturn:")]
 		bool TextFieldShouldReturn(UITextField textField);
